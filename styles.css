@@ -1,278 +1,396 @@
 body {
+    /*Este código define o estilo do corpo do site */
     background-color: black;
+    /*Define o fundo do site "preto"*/
     color: #b48546;
+    /*Define a cor do texto*/
     display: flex;
+    /* permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: column;
+    /*Os elementos serão empilhados verticalmente*/
     align-items: center;
+    /*os elementos serão centralizados*/
     justify-content: space-around;
-
+    /* este código define um espaço igual ao redor dos elementos*/
 }
 
 .cabecalho {
+    /*este código define um estilo para classe css, que esta no HTML*/
+
     display: flex;
+    /* permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: column;
+    /*Os elementos serão empilhados verticalmente*/
     align-items: center;
+    /*os elementos serão centralizados*/
     justify-content: space-around;
+    /* este código define um espaço igual ao redor dos elementos*/
     text-align: center;
+    /*o texto serão centralizadsos*/
     margin-top: 2rem;
+    /* define uma margem superior,com forme o tmanho personalizado */
     margin-bottom: 2rem;
+    /* define uma margem inferior,com forme o tmanho personalizado */
 
 }
 
 .logo {
+    /*este código define um estilo para classe logo, que esta no HTML*/
     width: 170px;
+    /*Define a largura do elemento*/
     height: 200px;
+    /*Define a altura do elemento*/
 }
 
 .titulo {
+    /*este código define um estilo para classe titulo, que esta no HTML*/
     margin-top: 3rem;
+    /* Define uma margem superior */
     font-size: 2rem;
+    /*Define o tamanho da fonte */
 }
 
 .navbar {
+    /*este código define um estilo para classe navbar, que esta no HTML*/
     width: 100%;
+    /*Define a largura do elemento*/
     margin-left: 18rem;
+    /*Define uma margem esquerda*/
     margin-right: 18rem;
+    /*Define uma margem direita */
     display: flex;
+    /* permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: column;
+    /*Os elementos serão empilhados verticalmente*/
     align-items: center;
-
-
-
+    /*os elementos serão centralizados*/
 }
 
 a {
+    /*este código define um estilo para classe a, que esta no HTML*/
 
     text-decoration: none;
+    /*Remove o sublinhado padrão de links*/
     color: #b48546;
+    /*Define a cor do texto*/
 }
 
 .navbar_lista {
+    /*este código define um estilo para classe navbar_lista, que esta no HTML*/
     display: flex;
+    /* permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: row;
+    /*Os elementos serão colocados lado a lado ao longo do eixo principal*/
     justify-content: space-around;
+    /* este código define um espaço igual ao redor dos elementos*/
     align-items: center;
+    /*os elementos serão centralizados*/
     width: 70%;
+    /*Define a largura */
 
 }
 
 .barra {
+    /*este código define um estilo para classe barra, que esta no HTML*/
     background-color: #b48546;
+    /*Define a cor de fundo do elemento */
     width: 70%;
+    /*Define a largura */
     height: 1px;
+    /*Define a altura*/
     margin-top: 1rem;
+    /*Define uma margem superior*/
     margin-bottom: 1rem;
+    /*Define uma margem inferior*/
 }
 
 .roda {
+    /*este código define um estilo para classe roda, que esta no HTML*/
 
     flex-direction: row-reverse;
+    /*Define que os elementos serão dispostos em uma linha, da direita para a esquerda.*/
     margin-top: 2rem;
+    /*Define uma margem superior*/
     font-size: 1rem;
+    /*Define o tamanho da fonte */
 
 }
 
 .menu {
+    /*este código define um estilo para classe menu, que esta no HTML*/
 
     width: 1000px;
+    /*Define a largura do elemento*/
     height: 1000px;
-
-
+    /*Define a altura do elemento*/
 }
 
 .textos {
+    /*este código define um estilo para classe textos, que esta no HTML*/
 
     display: flex;
+    /* permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: column;
+    /*Os elementos serão empilhados verticalmente*/
     align-items: center;
+    /*os elementos serão centralizados*/
     justify-content: space-around;
+    /* este código define um espaço igual ao redor dos elementos*/
     width: 70%;
-
-
-
+    /*Define a largura do elemento*/
 }
 
 .imgtexto1 {
+    /*este código define um estilo para classe imgtexto1, que esta no HTML*/
     float: left;
+    /*Faz com que o elemento flutue para a esquerda*/
     margin-right: 2rem;
+    /* Define uma margem à direita */
     margin-top: 1rem;
-
+    /*Define uma margem superior */
 }
 
 .texto1 {
+    /*este código define um estilo para classe texto1, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     margin-right: 18rem;
+    /* Define uma margem à direita */
     margin-top: 1rem;
+    /*Define uma margem superior*/
     text-align: justify;
-
-
+    /*Define o alinhamento do texto como justificado*/
 
 }
 
 .imgtexto2 {
+    /*este código define um estilo para classe imgtexto2, que esta no HTML*/
 
     float: right;
+    /*Faz com que o elemento flutue para a direita*/
     margin-left: 2rem;
-
-
+    /* Define uma margem à esquerda*/
 }
 
 .texto2 {
+    /*este código define um estilo para classe texto2, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     text-align: justify;
+    /*Define o alinhamento do texto como justificado*/
     margin-left: 18rem;
-
-
+    
+    /*Define uma margem à esquerda*/
 }
 
 .conteudoindex1 {
+    /*este código define um estilo para classe conteudoindex1, que esta no HTML*/
 
     display: flex;
+    /*permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: row;
+    /*Os elementos serão colocados lado a lado ao longo do eixo principal*/
     align-items: center;
+    /*os elementos serão centralizados*/
     justify-content: space-around;
+    /* este código define um espaço igual ao redor dos elementos*/
     text-align: center;
+    /*Define o alinhamento do texto como justificado*/
     margin-bottom: 5rem;
-
+    /*Define uma margem inferior*/
 
 }
 
 .conteudoindex2 {
+    /*este código define um estilo para classe conteudoindex2, que esta no HTML*/
 
     display: flex;
+    /*permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: row-reverse;
+    /*Define os elementos em uma linha da direita para esquerda, invertendo a ordem padrão. */
     align-items: center;
+    /*Centraliza os elementos verticalmente*/
     justify-content: space-around;
+    /*este código define um espaço igual ao redor dos elementos*/
     text-align: center;
+    /*Centraliza o texto */
 
 }
 
 .conteudoindex3 {
+    /*este código define um estilo para classe conteudoindex3, que esta no HTML*/
 
     display: flex;
+    /*permitindo o uso de propriedades flexíveis para organizar o conteúdo.*/
     flex-direction: row;
+    /*Os elementos serão colocados lado a lado ao longo do eixo principal*/
     align-items: center;
+    /*os elementos serão centralizados*/
     justify-content: space-around;
+    /* este código define um espaço igual ao redor dos elementos*/
     text-align: center;
+    /*Define o alinhamento do texto como justificado*/
     margin-bottom: 5rem;
-
+    /*Define uma margem inferior*/
 
 }
 
 .imgtexto3 {
+    /*este código define um estilo para classe imgtexto3  , que esta no HTML*/
     float: left;
+    /*Faz com que o elemento flutue para a esquerd*/
     margin-right: 2rem;
+    /*Define uma margem à direita*/
     margin-top: 1rem;
+    /* Define uma margem superior*/
 
 }
 
 .texto3 {
+    /*este código define um estilo para classe texto3, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     margin-right: 18rem;
+    /* Define uma margem à direita */
     margin-top: 1rem;
+    /* Define uma margem superior */
     text-align: justify;
-
-
+    /*Define o alinhamento do texto como justificado*/
 
 }
 
 .historia {
+    /*este código define um estilo para classe historia, que esta no HTML*/
 
     display: flex;
+    /*permitindo o uso de propriedades flexíveis para organizar o conteúd*/
     flex-direction: column;
+    /*Os elementos serão empilhados verticalmente*/
     align-items: center;
+    /*Centraliza os elementos horizontalmente*/
     justify-content: space-around;
+    /*este código define um espaço igual ao redor dos elementos*/
     width: 70%;
+    /*Define a largura */
 
 }
 
 .imghistoria1 {
+    /*este código define um estilo para classe imghistoria1, que esta no HTML*/
     float: left;
+    /*Faz com que o elemento flutue para a esquerd*/
     margin-right: 2rem;
+    /*Define uma margem à direita*/
     margin-top: 1rem;
+    /* Define uma margem superior*/
     margin-bottom: 5rem;
+    /*Define uma margem inferior*/
 
 }
 
 .historiatexto1 {
+    /*este código define um estilo para classe historiatexto1, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     margin-right: 18rem;
+    /* Define uma margem à direita */
     margin-top: 4rem;
+    /* Define uma margem superior */
     text-align: justify;
-
-
+    /*Define o alinhamento do texto como justificado*/
 
 }
 
 .imghistoria2 {
+    /*este código define um estilo para classe imghistoria2, que esta no HTML*/
 
     float: right;
+    /* Faz com que o elemento flutue para a direita*/
     margin-left: 2rem;
+    /*Define uma margem à esquerda*/
     margin-bottom: 5rem;
-
+    /*Define uma margem inferior*/
 
 }
 
 .historiatexto2 {
+    /*este código define um estilo para classe historiatexto2, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     text-align: justify;
+    /*Define o alinhamento do texto como justificado*/
     margin-left: 18rem;
-
+    /*Define uma margem à esquerda*/
 
 }
 
 .imghistoria3 {
+    /*este código define um estilo para classe imghistoria3, que esta no HTML*/
     float: left;
+    /*Faz com que o elemento flutue para a esquerd*/
     margin-right: 2rem;
+    /*Define uma margem à direita*/
     margin-top: 1rem;
+    /* Define uma margem superior*/
 
 }
 
 .historiatexto3 {
+    /*este código define um estilo para classe historiatexto3, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     margin-right: 18rem;
+    /*Define uma margem à direita*/
     margin-top: 2rem;
+    /* Define uma margem superior*/
     text-align: justify;
+    /*Define o alinhamento do texto como justificado*/
     margin-bottom: 5rem;
-
-
+    /*Define uma margem inferior*/
 
 }
 
 .imghistoria4 {
+    /*este código define um estilo para classe imghistoria4 , que esta no HTML*/
 
     float: right;
+    /*Faz com que o elemento flutue para a direita */
     margin-left: 2rem;
-
+    /*Define uma margem à esquerda*/
 
 }
 
 .historiatexto4 {
+    /*este código define um estilo para classe historiatexto4, que esta no HTML*/
 
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     text-align: justify;
+    /*Define o alinhamento do texto como justificado*/
     margin-left: 18rem;
-
+    /*Define uma margem à esquerda*/
 
 }
 
 .enderecotexto1 {
+    /*este código define um estilo para classe enderecotexto1 , que esta no HTML*/
     text-align: center;
+    /*Centraliza o texto dentro do elemento.*/
     font-size: 2rem;
+    /*Define o tamanho da fonte*/
     margin-left: 18rem;
+    /*Define uma margem à esquerda*/
     margin-right: 18rem;
+    /* Define uma margem à direita */
     margin-top: 10rem;
+    /*Define uma margem superior */
     margin-bottom: 5rem;
-
-
-
-
-
+    /*Define uma margem inferior*/
 
 }
